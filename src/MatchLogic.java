@@ -29,7 +29,7 @@ public class MatchLogic {
                 int damage1 = rand.nextInt(14) + 1;
                 int defendDamage = rand.nextInt(9);
                 int defendDamage1 = rand.nextInt(9);
-                Thread.sleep(600);
+                //1Thread.sleep(600);
 
                 if (f1.getHealth() <= 0) {
                     f2Count++;
@@ -38,8 +38,6 @@ public class MatchLogic {
                         System.out.println("The winner is " + f2.getName() + " and moves on to the next match!");
                         System.out.println(f2.getName() + " screams: " + f2.getWinningMotto());
                         ref.winningList.add(f2);
-                        ref.finalistList.add(f2);
-                        ref.finalistList.remove(f1);
                         break outerloop;
                     }
                     System.out.println(f2.getName() + " wins round " + rounds + "!\nPress any enter for the next round");
@@ -49,7 +47,7 @@ public class MatchLogic {
                     f2.setHealth(100);
                 }
 
-                FightLogic.attackDefend(damage, defendDamage, f1, f2);
+                FightLogic.attackDefend(damage, defendDamage, f1, f2, damage);
 
                 if (f2.getHealth() <= 0) {
                     f1Count++;
@@ -58,8 +56,6 @@ public class MatchLogic {
                         System.out.println("The winner is " + f1.getName() + " and moves on to the next match!");
                         System.out.println(f1.getName() + " screams: " + f1.getWinningMotto());
                         ref.winningList.add(f1);
-                        ref.finalistList.add(f1);
-                        ref.finalistList.remove(f2);
                         break outerloop;
                     }
                     System.out.println(f1.getName() + " wins round " + rounds +"!\nPress any enter for the next round:");
@@ -68,7 +64,7 @@ public class MatchLogic {
                     f1.setHealth(100);
                     f2.setHealth(100);
                 }
-                FightLogic.attackDefend(damage1, defendDamage1, f2, f1);
+                FightLogic.attackDefend(damage1, defendDamage1, f2, f1, damage1);
             }
         }
     }

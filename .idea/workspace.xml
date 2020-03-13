@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93b417ea-1614-4c40-b1ec-8d838f88276b" name="Default Changelist" comment="" />
+    <list default="true" id="93b417ea-1614-4c40-b1ec-8d838f88276b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MortalJava1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MortalJava1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MortalJava1/FightLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MortalJava1/FightLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MortalJava1/FighterMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MortalJava1/FighterMaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MortalJava1/Match.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MortalJava1/Match.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MortalJava1/MatchLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MortalJava1/MatchLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FightLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FightLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FighterMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FighterMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MatchLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatchLogic.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,23 +38,45 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="ProjectId" id="1Y7C1ToBOt5wNfGoLvQTYeRl4Bx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FighterMakerTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="MortalJava1" />
@@ -48,9 +84,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FighterMakerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MortalJava1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FighterMakerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FighterMakerTest.createFighterArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MortalJava1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FighterMakerTest" />
+      <option name="METHOD_NAME" value="createFighterArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatchLogicTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="MortalJava1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MatchLogicTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MortalJava1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MatchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatchTest.matches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MortalJava1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MatchTest" />
+      <option name="METHOD_NAME" value="matches" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.MatchLogicTest" />
+      <item itemvalue="JUnit.FighterMakerTest.createFighterArray" />
+      <item itemvalue="JUnit.FighterMakerTest" />
+      <item itemvalue="JUnit.MatchTest.matches" />
+      <item itemvalue="JUnit.MatchTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FighterMakerTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MatchTest" />
+        <item itemvalue="JUnit.FighterMakerTest.createFighterArray" />
+        <item itemvalue="JUnit.MatchTest.matches" />
       </list>
     </recent_temporary>
   </component>
@@ -79,7 +176,18 @@
       <workItem from="1582284032585" duration="50076000" />
       <workItem from="1582654956874" duration="12286000" />
       <workItem from="1582840022414" duration="4639000" />
-      <workItem from="1583136343216" duration="1708000" />
+      <workItem from="1583136343216" duration="4376000" />
+      <workItem from="1583416717090" duration="28461000" />
+      <workItem from="1583769270856" duration="2215000" />
+      <workItem from="1583776976034" duration="77000" />
+      <workItem from="1583777065141" duration="305000" />
+      <workItem from="1583777389468" duration="185000" />
+      <workItem from="1583777587770" duration="145000" />
+      <workItem from="1583777747981" duration="2501000" />
+      <workItem from="1583784396620" duration="103000" />
+      <workItem from="1583784513032" duration="232000" />
+      <workItem from="1583784759784" duration="17018000" />
+      <workItem from="1584117105129" duration="1526000" />
     </task>
     <servers />
   </component>
@@ -87,43 +195,83 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2171" y="251" key="#MatchLogicTest" timestamp="1583417439389">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="2171" y="251" key="#MatchLogicTest/-1920.189.1920.1050/0.0.3440.1410@0.0.3440.1410" timestamp="1583417439389" />
+    <state x="1946" y="353" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583418162714">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="1946" y="353" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.189.1920.1050/0.0.3440.1410@0.0.3440.1410" timestamp="1583418162714" />
+    <state x="92" y="92" width="1736" height="866" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583859106816">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1583859106816" />
     <state x="764" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1582534499306">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="764" y="244" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1582534499306" />
-    <state width="1872" height="594" key="GridCell.Tab.0.bottom" timestamp="1582892173789">
+    <state x="422" y="276" key="FileChooserDialogImpl" timestamp="1583829713134">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="828" height="1296" key="GridCell.Tab.0.bottom/-1920.189.1920.1050/0.0.3440.1410@0.0.3440.1410" timestamp="1582835117902" />
-    <state width="1872" height="594" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582892173789" />
-    <state width="1872" height="594" key="GridCell.Tab.0.center" timestamp="1582892173789">
+    <state x="756" y="370" key="FileChooserDialogImpl/-1920.189.1920.1050/0.0.3440.1410@0.0.3440.1410" timestamp="1583784875697" />
+    <state x="422" y="276" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1583829713134" />
+    <state width="1877" height="160" key="GridCell.Tab.0.bottom" timestamp="1584118633541">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="3397" height="591" key="GridCell.Tab.0.bottom/-1920.189.1920.1050/0.0.3440.1410@0.0.3440.1410" timestamp="1583837210752" />
+    <state width="1877" height="160" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584118633541" />
+    <state width="1877" height="24" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1583859334555" />
+    <state width="1877" height="160" key="GridCell.Tab.0.center" timestamp="1584118633541">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="3397" height="591" key="GridCell.Tab.0.center/-1920.189.1920.1050/0.0.3440.1410@0.0.3440.1410" timestamp="1583837210752" />
+    <state width="1877" height="160" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584118633541" />
+    <state width="1877" height="24" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1583859334554" />
+    <state width="1877" height="160" key="GridCell.Tab.0.left" timestamp="1584118633541">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="3397" height="591" key="GridCell.Tab.0.left/-1920.189.1920.1050/0.0.3440.1410@0.0.3440.1410" timestamp="1583837210752" />
+    <state width="1877" height="160" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584118633541" />
+    <state width="1877" height="24" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1583859334554" />
+    <state width="1877" height="160" key="GridCell.Tab.0.right" timestamp="1584118633541">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="3397" height="591" key="GridCell.Tab.0.right/-1920.189.1920.1050/0.0.3440.1410@0.0.3440.1410" timestamp="1583837210752" />
+    <state width="1877" height="160" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584118633541" />
+    <state width="1877" height="24" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1583859334554" />
+    <state x="779" y="152" key="SettingsEditor" timestamp="1583851132497">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="828" height="1296" key="GridCell.Tab.0.center/-1920.189.1920.1050/0.0.3440.1410@0.0.3440.1410" timestamp="1582835117902" />
-    <state width="1872" height="594" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582892173789" />
-    <state width="1872" height="594" key="GridCell.Tab.0.left" timestamp="1582892173789">
+    <state x="808" y="515" key="SettingsEditor/-1920.189.1920.1050/0.0.3440.1410@0.0.3440.1410" timestamp="1583785163367" />
+    <state x="779" y="152" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1583851132497" />
+    <state x="813" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1584117105290">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="828" height="1296" key="GridCell.Tab.0.left/-1920.189.1920.1050/0.0.3440.1410@0.0.3440.1410" timestamp="1582835117902" />
-    <state width="1872" height="594" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582892173789" />
-    <state width="1872" height="594" key="GridCell.Tab.0.right" timestamp="1582892173789">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="828" height="1296" key="GridCell.Tab.0.right/-1920.189.1920.1050/0.0.3440.1410@0.0.3440.1410" timestamp="1582835117902" />
-    <state width="1872" height="594" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582892173789" />
-    <state x="659" y="518" key="SettingsEditor" timestamp="1582573762084">
+    <state x="1456" y="467" key="com.intellij.ide.util.TipDialog/-1920.189.1920.1050/0.0.3440.1410@0.0.3440.1410" timestamp="1583784765292" />
+    <state x="813" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1584117105290" />
+    <state x="656" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1583136355416" />
+    <state x="2278" y="477" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583416771156">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state x="659" y="518" key="SettingsEditor/-1920.189.1920.1050/0.0.3440.1410@0.0.3440.1410" timestamp="1582573762084" />
-    <state x="460" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1582531798196" />
-    <state x="656" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1583136355416">
+    <state x="2278" y="477" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/-1920.189.1920.1050/0.0.3440.1410@0.0.3440.1410" timestamp="1583416771156" />
+    <state x="769" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583851562524">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1583136355416" />
+    <state x="769" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1583851562524" />
+    <state x="1308" y="214" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583746790642">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2344" y="287" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.189.1920.1050/0.0.3440.1410@0.0.3440.1410" timestamp="1583420070384" />
+    <state x="1308" y="214" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1583746790642" />
     <state x="685" y="253" key="new project wizard" timestamp="1583137746454">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1750" y="340" key="new project wizard/-1920.189.1920.1050/0.0.3440.1410@0.0.3440.1410" timestamp="1582401197249" />
     <state x="685" y="253" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1583137746454" />
+    <state x="1591" y="618" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1583777247057">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="1591" y="618" key="org.intellij.images.editor.actions.BackgroundImageDialog/-1920.189.1920.1050/0.0.3440.1410@0.0.3440.1410" timestamp="1583777247057" />
   </component>
 </project>

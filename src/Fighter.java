@@ -1,4 +1,3 @@
-import java.util.Random;
 
 public class Fighter {
     private String name, winningMotto;
